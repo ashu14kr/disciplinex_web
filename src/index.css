@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --font-heading: "Roboto Condensed", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+html, body {
+  overscroll-behavior: none;
+}
